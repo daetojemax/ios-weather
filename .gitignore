@@ -1,0 +1,30 @@
+*.DS_Store
+.Trashes
+*.xcodeproj/xcuserdata/*
+*.xcodeproj/project.xcworkspace/xcuserdata/*
+*.pbxuser
+*.perspectivev3
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+*.xccheckout
+*.moved-aside
+*.xcworkspace/xcuserdata/*
+
+# Clean utility
+default.profraw
+
+# Managers
+Carthage/*
+Carthage.lock
+Pods/*
+Podfile.lock
+
+# Fastlane / CI /CD
+build
+*.ipa
+*.ipa.zip
+fastlane/*
+!fastlane/.env*
+
